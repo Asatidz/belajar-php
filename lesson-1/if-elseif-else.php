@@ -2,9 +2,9 @@
 echo "Masukkan nilai : ";
 $nilai = fgets(STDIN);
 
-if($nilai < 1){
-    echo "Nilai : $nilai\n";
-    echo "Maaf, nilai minimal 1";
+if($nilai <= 0){
+    echo "Nilai : $nilai";
+    echo "Maaf, Ujian Sek Leh🤬🤬";
 }elseif($nilai < 60){
     echo "Nilai : $nilai\n";
     echo "Gradde : E";

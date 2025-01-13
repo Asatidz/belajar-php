@@ -14,6 +14,6 @@ switch($kode){
         echo "Selamat datang Tamu";
         break;
     default:
-        echo "Maaf, akses ditolak..!";
+        echo "Maaf, Kamu Penyusup Njay..!";
         break;
 }
