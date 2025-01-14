@@ -2,5 +2,5 @@
 function sape($nama, $dia){
     echo "Gimana $nama, Apakah $dia";
 }
-sape("Dita", "Leni");
+sape("Dita", "Sehat");
 ?>
